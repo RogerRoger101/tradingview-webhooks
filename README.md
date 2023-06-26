@@ -14,17 +14,17 @@ https://youtu.be/TKAo_Z-hzQs
 
 https://tradingview.go2cloud.org/SH4Gl
 
-## TradingView message format
+## TradingView message format - quotes were missing for the json - FIXED
 
 ```
 {
-    "open": {{open}},
-    "high": {{high}},
-    "low": {{low}},
-    "close": {{close}},
+    "open": :{{open}}:,
+    "high": :{{high}}:,
+    "low": :{{low}};,
+    "close": :{{close}}:,
     "exchange": "{{exchange}}",
     "ticker": "{{ticker}}",
-    "volume": {{volume}},
+    "volume": :{{volume}}:,
     "time": "{{time}}",
     "timenow": "{{timenow}}"
 }
