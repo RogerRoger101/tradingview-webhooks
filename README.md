@@ -18,13 +18,13 @@ https://tradingview.go2cloud.org/SH4Gl
 
 ```
 {
-    "open": :{{open}}:,
-    "high": :{{high}}:,
-    "low": :{{low}};,
-    "close": :{{close}}:,
+    "open": :"{{open}}":,
+    "high": :"{{high}}":,
+    "low": :"{{low}}";,
+    "close"::"{{close}}":,
     "exchange": "{{exchange}}",
     "ticker": "{{ticker}}",
-    "volume": :{{volume}}:,
+    "volume": :"{{volume}}"":,
     "time": "{{time}}",
     "timenow": "{{timenow}}"
 }
