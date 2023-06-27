@@ -28,4 +28,7 @@ https://tradingview.go2cloud.org/SH4Gl
     "time": "{{time}}",
     "timenow": "{{timenow}}"
 }
+
+Addition help/information if you are trying to run this from a VM/MAC
+https://pastebin.com/QDeaE098
 ```
